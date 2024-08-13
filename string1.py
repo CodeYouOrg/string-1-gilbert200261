@@ -80,8 +80,8 @@ def test(got, expected):
 # using test() to check if each result is correct or not.
 def main():
     print('donuts')
-    test(donuts(4), 'Number of donuts: 4')
-    test(donuts(9), 'Number of donuts: 9')
+    test(donuts(4), 'Number of donuts: {count}')
+    test(donuts(9), 'Number of donuts: {count}')
     test(donuts(10), 'Number of donuts: many')
     test(donuts(99), 'Number of donuts: many')
 
